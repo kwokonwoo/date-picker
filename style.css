@@ -1,0 +1,84 @@
+.datepicker-wrapper {
+    position: absolute;
+    right: 0; 
+    left: 0;
+    display: none;
+    margin: auto;
+    width: 290px;
+    font-size: 16px;
+    box-shadow: 2px 2px 8px 2px rgba(128, 128, 128, .3);
+}
+
+.datepicker-wrapper-show {
+    display: block;
+}
+
+.datepicker-header {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0 20px;
+    height: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #2C3E50;
+}
+
+.datepicker-btn {
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: serif;
+    cursor: pointer;
+}
+
+.datepicker-pre-yr {
+    left: 10px;
+}
+
+.datepicker-pre-mth {
+    left: 40px;
+}
+
+.datepicker-next-mth {
+    right: 40px;
+}
+
+.datepicker-next-yr {
+    right: 10px;
+}
+
+.datepicker-body table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.datepicker-body th {
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #34495E;
+}
+
+.datepicker-body td {    
+    height: 38px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #34495E;;
+}
+
+ .datepicker-body .current-day-light{
+    background-color: rgb(102, 185, 236);
+}
+
+td.sibling-month-light{
+    color: #BDC3C7;
+}
+
+.datepicker-body td:last-child, td:nth-last-child(2) {
+    background-color: #f2f2f2;
+}
+
+.datepicker-body td:hover {
+    background-color: #3498DB;
+}
